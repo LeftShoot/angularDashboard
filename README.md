@@ -24,3 +24,13 @@ a dashboard project develop by Angular
  Mixins （混入，通过可重用组件创建类的方式）
  三斜线指令 (包含单个XML标签的单行注释)
  错误信息列表 (报错信息查阅 https://www.tslang.cn/docs/handbook/error.html)
+
+#项目文件说明
+angular-cli.json --- angular-cli的配置文件
+karma.conf.js --- 测试配置文件
+protractor.conf.js --- typescript的lint配置文件，端到端的测试配置文件
+polyfills.ts --- 导入es6模块的配置文件
+main.ts --- 引导启动文件
+style.css --- 全局样式
+ts.config.json --- typescript配置文件
+typings.d.ts --- typescript的声明文件
